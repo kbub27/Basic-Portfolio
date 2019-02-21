@@ -1,0 +1,37 @@
+body {
+    margin: 0 auto;
+    background: grey;
+    text-align: center;
+}
+
+#staysTop {
+    width: 100%;
+    background: white;
+}
+
+header {
+    width: 960px;
+    margin: 0 auto;
+}
+
+h1 {
+    float: left;
+    padding: 15px;
+    background: teal;
+    margin: 0;
+}
+
+nav {
+    float: right;
+}
+
+li {
+    display: inline;
+    margin-left: 5px;
+}
+
+#staysTop::after {
+    display: block;
+    content: "";
+    clear: both;
+}
