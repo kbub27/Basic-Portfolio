@@ -35,3 +35,14 @@ li {
     content: "";
     clear: both;
 }
+
+img {
+    height: 200px;
+    width: 200px;
+    margin: 10px 10px 0px 0px;
+}
+
+.imgTable {
+    width: 960px;
+    margin: 0 auto;
+}
