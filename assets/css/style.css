@@ -9,11 +9,13 @@ body {
     height: 100%;
     display: flex;
     flex-direction: column;
+    color: #777777;
 }
 
 #staysTop {
     width: 100%;
-    background: white;
+    background: #ffffff;
+    border-bottom: 1px solid #cccccc;
 }
 
 header {
@@ -24,7 +26,8 @@ header {
 h1 {
     float: left;
     padding: 15px;
-    background: teal;
+    background: #4aaaa5;
+    color: #ffffff;
     margin: 0;
 }
 
@@ -40,7 +43,7 @@ li {
 }
 
 .border {
-    border-right: 0.5px solid rgb(158, 157, 157);
+    border-right: 0.5px solid #cccccc;
 }
 
 #staysTop::after {
@@ -50,37 +53,44 @@ li {
 }
 
 img {
-    height: 200px;
+    height: 150px;
     width: 200px;
     margin: 10px 10px 0px 0px;
 }
 
 .imgTable {
-    background: white;
-    margin: 10px auto;
+    background: #ffffff;
+    margin: 20px auto;
     padding: 10px;
     width: 940px;
     flex: 1 0 auto;
+    border: 1px solid #dddddd;
 }
 
 #container {
-    background: white;
+    background: #ffffff;
     width: 930px;
-    margin: 10px auto;
+    margin: 20px auto;
     padding: 15px;
     flex: 1 0 auto;
+    border: 1px solid #dddddd;
 }
 
 h2 {
     padding-bottom: 15px;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #dddddd;
     text-align: left;
+    color: #4aaaa5;
 }
 
-.content {
-    display: inline-flex;
-    justify-content: flex-start;
-    width: 940px;
+.myPhoto {
+    padding-left: 10px;
+    float: left;
+}
+
+p {
+    padding: 15px;
+    text-align: left;
 }
 
 .myForm {
@@ -93,6 +103,9 @@ input {
 
 .submit {
     width: 80px;
+    background: #4aaaa5;
+    color: #ffffff;
+    padding: 10px 0px 10px 0px;
 }
 
 .spacing {
@@ -100,8 +113,21 @@ input {
 }
 
 footer {
-    background: grey;
-    border-top: teal 5px solid;
-    padding: 15px;
+    background: #666666;
+    border-top: #4aaaa5 8px solid;
+    padding-top: 20px;
     flex-shrink: 0;
+    color: #ffffff;
+}
+
+.clear {
+    clear: both;
+}
+
+a {
+    color: #4aaaa5;
+}
+
+input {
+    color: #777777;
 }
