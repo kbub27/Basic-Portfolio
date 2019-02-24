@@ -1,7 +1,14 @@
+html {
+    height: 100%;
+}
+
 body {
     margin: 0 auto;
     background-image: url(../images/prism/prism.png);
     text-align: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 #staysTop {
@@ -30,7 +37,10 @@ li {
     margin-left: 5px;
     padding-right: 10px;
     padding-left: 10px;
-    border-right: 1px solid grey;
+}
+
+.border {
+    border-right: 0.5px solid rgb(158, 157, 157);
 }
 
 #staysTop::after {
@@ -49,6 +59,8 @@ img {
     background: white;
     margin: 10px auto;
     padding: 10px;
+    width: 940px;
+    flex: 1 0 auto;
 }
 
 #container {
@@ -56,6 +68,7 @@ img {
     width: 930px;
     margin: 10px auto;
     padding: 15px;
+    flex: 1 0 auto;
 }
 
 h2 {
@@ -86,3 +99,9 @@ input {
     padding: 10px;
 }
 
+footer {
+    background: grey;
+    border-top: teal 5px solid;
+    padding: 15px;
+    flex-shrink: 0;
+}
