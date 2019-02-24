@@ -28,6 +28,9 @@ nav {
 li {
     display: inline;
     margin-left: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-right: 1px solid grey;
 }
 
 #staysTop::after {
@@ -44,5 +47,20 @@ img {
 
 .imgTable {
     width: 960px;
-    margin: 0 auto;
+    margin: 10px auto;
+    background: white;
 }
+
+#container {
+    background: white;
+    width: 930px;
+    margin: 10px auto;
+    padding: 15px;
+}
+
+h2 {
+    padding-bottom: 15px;
+    border-bottom: 1px solid black;
+    text-align: left;
+}
+
