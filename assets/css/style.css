@@ -61,7 +61,7 @@ img {
 .imgTable {
     background: #ffffff;
     margin: 20px auto;
-    padding: 10px;
+    padding: 15px;
     width: 940px;
     flex: 1 0 auto;
     border: 1px solid #dddddd;
@@ -84,7 +84,7 @@ h2 {
 }
 
 .myPhoto {
-    padding-left: 10px;
+    padding-right: 10px;
     float: left;
 }
 
@@ -109,7 +109,7 @@ input {
 }
 
 .spacing {
-    padding: 10px;
+    padding: 10px 0px 10px 0px;
 }
 
 footer {
@@ -130,4 +130,66 @@ a {
 
 input {
     color: #777777;
+}
+
+.flex {
+    position: relative;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.top1 {
+    position: absolute;
+    top: 112px;
+    left: 0px;
+    width: 180px;
+    padding: 10px;
+    text-align: center;
+}
+
+.top2 {
+    position: absolute;
+    top: 112px;
+    left: 214px;
+    padding: 10px;
+    text-align: center;
+    width: 180px;
+}
+
+.mid1 {
+    position: absolute;
+    top: 276px;
+    left: 0px;
+    text-align: center;
+    width: 180px;
+    padding: 10px;
+}
+
+.mid2 {
+    position: absolute;
+    top: 276px;
+    left:214px;
+    text-align: center;
+    padding: 10px;
+    width: 180px;
+}
+
+.bot1 {
+    position: absolute;
+    top: 440px;
+    left: 0px;
+    text-align: center;
+    padding: 10px;
+    width: 180px;
+}
+
+.top1,
+.top2,
+.mid1,
+.mid2,
+.bot1 {
+    background: #4aaaa5;
+    color: #ffffff;
 }
