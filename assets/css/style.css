@@ -46,9 +46,9 @@ img {
 }
 
 .imgTable {
-    width: 960px;
-    margin: 10px auto;
     background: white;
+    margin: 10px auto;
+    padding: 10px;
 }
 
 #container {
@@ -62,5 +62,27 @@ h2 {
     padding-bottom: 15px;
     border-bottom: 1px solid black;
     text-align: left;
+}
+
+.content {
+    display: inline-flex;
+    justify-content: flex-start;
+    width: 940px;
+}
+
+.myForm {
+    text-align: left;
+}
+
+input {
+    width: 920px;
+}
+
+.submit {
+    width: 80px;
+}
+
+.spacing {
+    padding: 10px;
 }
 
