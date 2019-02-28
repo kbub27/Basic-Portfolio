@@ -10,6 +10,7 @@ body {
     display: flex;
     flex-direction: column;
     color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 #staysTop {
@@ -29,6 +30,7 @@ h1 {
     background: #4aaaa5;
     color: #ffffff;
     margin: 0;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
 nav {
