@@ -188,11 +188,21 @@ input {
     width: 180px;
 }
 
+.bot2 {
+    position: absolute;
+    top: 440px;
+    left: 214px;
+    text-align: center;
+    padding: 10px;
+    width: 180px;
+}
+
 .top1,
 .top2,
 .mid1,
 .mid2,
-.bot1 {
+.bot1,
+.bot2 {
     background: #4aaaa5;
     color: #ffffff;
 }
