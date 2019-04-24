@@ -205,3 +205,8 @@ input {
 .links {
     color: #ffffff;
 }
+
+.social-medias {
+    display: block;
+    text-align: left;
+}
