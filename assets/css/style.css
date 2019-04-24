@@ -230,3 +230,11 @@ input {
     background-color: #4aaaa5;
     color: #cccccc;
 }
+
+#card-original {
+    background-color: #cccccc;
+}
+
+.center-text {
+    text-align: center;
+}
