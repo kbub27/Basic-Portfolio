@@ -210,3 +210,13 @@ input {
     display: block;
     text-align: left;
 }
+
+.card {
+    background: #4aaaa5;
+}
+
+.card-title {
+    color: black;
+    padding: 5px;
+    border-bottom: 1px solid #666666;
+}
