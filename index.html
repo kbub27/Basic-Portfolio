@@ -10,17 +10,17 @@
 </head>
 
 <body>
-
-    <div id="staysTop">
-
-        <div class="row">
-
-            <h1 class="col-xl-3">Kaleb Merriman</h1>
-
-            <nav class="col-xl-9">
-                <ul class="nav justify-content-end">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">About</a>
+    <nav class="navbar navbar-expand-lg navbar-dark border-bottom border-light" style="background-color: #666666;">
+        <div class="container">
+            <span class="navbar-brand h1" style="color: #4aaaa5;">Kaleb Merriman</span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="portfolio.html">Portfolio</a>
@@ -29,19 +29,15 @@
                         <a class="nav-link" href="projects.html">Projects</a>
                     </li>
                 </ul>
-            </nav>
-
+            </div>
         </div>
-
-    </div>
-
-    <div id="container">
-
-        <div class="clear row">
-            <h2 class="col-lg-12">About Me</h2>
+    </nav>
+    <div class="container mt-5" style="background-color: #dddddd;">
+        <div class="row p-3 border-bottom border-dark">
+            <h2 class="col-sm-12">About Me</h2>
         </div>
-        <div class="row">
-            <div class="col-lg-4">
+        <div class="row p-3">
+            <div class="col-lg-4 col-12">
                 <div class="card" style="width: 18rem;">
                     <img class="card-img-top" src="assets\images\placeholder1.jpg" alt="placeholder">
                     <div class="card-body">
@@ -57,18 +53,16 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-8">
+            <div class="col-lg-8 col-12">
                 <p>Full stack web developer with great time management skills as well as a great teammate and co-worker.
                     Work well in jQuery and Javascript environments. Very adaptive and fast with intake of new concepts
                     and languages. Certificate of completion obtained through University of Washington for web
                     development.</p>
             </div>
-
         </div>
-
     </div>
 
-    <footer>Copyright.</footer>
+    <footer class="fixed-bottom pb-2 border-top border-light">Copyright.</footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
