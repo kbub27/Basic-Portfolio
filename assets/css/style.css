@@ -42,13 +42,12 @@ footer {
 }
 
 .links {
-    color: #ffffff;
+    color: black;
 }
 
 .card {
-    background: #4aaaa5;
+    background-color: #cccccc;
 }
-
 .card-title {
     color: black;
     padding: 5px;
